@@ -3,7 +3,7 @@
 // apresente as vogais e a frequência de sua aparição na frase.
 
 Console.Write("Escreva uma frase: ");
-string frase = Console.ReadLine().ToLower();
+string frase = Console.ReadLine().ToLower().Normalize(System.Text.NormalizationForm.FormD);
 char[] letras = frase.ToCharArray();
 int freqA = 0;
 int freqE = 0;
