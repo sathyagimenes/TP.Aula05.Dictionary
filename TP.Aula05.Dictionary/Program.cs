@@ -1,4 +1,4 @@
-﻿// Enunciado
+﻿// Enunciado Exercício 1
 // Faça um script que leia uma frase do usuário e use um dicionário que
 // apresente as vogais e a frequência de sua aparição na frase.
 
